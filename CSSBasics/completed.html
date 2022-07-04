@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics</title>
+</head>
+<body>
+    <!-- Create the tag for writing CSS -->
+    <style>
+        #content li{
+            display: inline-block;
+        }
+        #content li img{
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+        #content li:hover{
+            box-shadow: 10px 5px 5px rgb(192, 192, 192);
+        }
+    </style>
+    <!-- Create a section with an id of (header) and center the whole section...add a background color to the section-->
+    <div id="header">
+        <h2>Hello World</h2>
+        <!-- Make this text blue color and font 20 pixels-->
+        <p>This text should be BLUE!</p>
+    </div>
+
+    <!-- Create another section called content -->
+    <div id="content">
+        <h2>Content Section</h2>
+        <!-- add three images as web sources and make them equal sizes -->
+        <ul>
+            <!-- 1. Place the images next to each other -->
+            <!-- 2. Make the images 200 x 200 -->
+            <!-- 3. BONUS: Fix the images fit -->
+            <!-- 3. BONUS: Make a shadow when mouse hovers an image -->
+            <!-- *make sure the browser window is big enough so they go next to each other -->
+            <li><img src="https://images.pexels.com/photos/2253275/pexels-photo-2253275.jpeg?auto=compress&cs=tinysrgb&w=300"></li>
+            <li><img src="https://images.pexels.com/photos/2797318/pexels-photo-2797318.jpeg?auto=compress&cs=tinysrgb&w=300"></li>
+            <li><img src="https://images.pexels.com/photos/4422100/pexels-photo-4422100.jpeg?auto=compress&cs=tinysrgb&w=300"></li>
+        </ul>
+
+        <!--  -->
+
+        <table border="1px">
+            <th>Name</th>
+            <th>Occupation</th>
+            <tr>
+                <td>Kyle Thompson</td>
+                <td>Manager</td>
+            </tr>
+            <tr>
+                <td>Maria Jimena</td>
+                <td>Server</td>
+            </tr>
+            <tr>
+                <td>George West</td>
+                <td>Chef</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
